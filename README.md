@@ -1,30 +1,24 @@
-DevaWrite is a real-time handwriting recognition system built to recognize Hindi characters written in the Devanagari script. The system utilizes Convolutional Neural Networks (CNN) and OpenCV for detecting blue pen strokes and classifying them into predefined Devanagari characters.
+# **DevaWrite: Real-Time Hindi Handwriting Recognition System**
 
-Features
-Real-time Recognition: Detects and classifies handwritten Devanagari characters in real-time using a webcam.
+DevaWrite is a real-time handwriting recognition system built to recognize Hindi characters written in the Devanagari script. The system utilizes **Convolutional Neural Networks (CNN)** and **OpenCV** for detecting blue pen strokes and classifying them into predefined Devanagari characters.
 
-Stroke Tracking: Tracks pen strokes in real-time and processes the drawn character.
+## **Features**
+- **Real-time Recognition**: Detects and classifies handwritten Devanagari characters in real-time using a webcam.
+- **Stroke Tracking**: Tracks pen strokes in real-time and processes the drawn character.
+- **User-Friendly Interface**: Displays the predicted character and confidence level as feedback.
+- **Reset Functionality**: Allows the user to clear the canvas and start drawing a new character.
 
-User-Friendly Interface: Displays the predicted character and confidence level as feedback.
+## **Technology Stack**
+- **Python**: The main programming language.
+- **OpenCV**: For image processing, capturing webcam feed, and stroke tracking.
+- **Keras (TensorFlow)**: Used for building and training the Convolutional Neural Network (CNN) model.
+- **NumPy**: Used for handling arrays and mathematical operations.
 
-Reset Functionality: Allows the user to clear the canvas and start drawing a new character.
-
-Technology Stack
-Python: The main programming language.
-
-OpenCV: For image processing, capturing webcam feed, and stroke tracking.
-
-Keras (TensorFlow): Used for building and training the Convolutional Neural Network (CNN) model.
-
-NumPy: Used for handling arrays and mathematical operations.
-
-Installation
+## **Installation**
 To run the project locally, follow these steps:
 
-Clone the repository:
-
-bash
-Copy
+### Clone the repository:
+```bash
 git clone https://github.com/Pranavs1131/DevaWrite-Real-Time-Hindi-Handwriting-Recognition-System.git
 cd DevaWrite-Real-Time-Hindi-Handwriting-Recognition-System
 Set up the virtual environment (Optional):
@@ -90,4 +84,16 @@ Acknowledgments
 TensorFlow/Keras: For providing the deep learning framework.
 
 OpenCV: For computer vision tasks, like webcam feed capture and image processing.
+
+markdown
+Copy
+
+### How to use this on GitHub:
+1. Copy the content above.
+2. Create a `README.md` file in your repository (if not already present).
+3. Paste the content into the `README.md` file and commit the changes.
+
+This will render beautifully on GitHub and provide the necessary project documentation for your repository.
+
+Let me know if you need further modifications!
 
